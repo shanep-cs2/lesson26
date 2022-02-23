@@ -1,8 +1,8 @@
-# lesson04 - Warmup
+# lesson25 - Build a linked list
 
 - name: TODO
 - email: TODO
-- [lab specs](https://shanepanter.com/cs2/lessons/lesson04.html)
+- [lab specs](https://shanepanter.com/cs2/lessons/lesson25.html)
 
 ## Testing
 
