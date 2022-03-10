@@ -1,4 +1,13 @@
-# lesson26 - Build a linked list
+# lesson26 - The List
+
+## Overview
+
+In this lesson we are going to implement our own data structure that implements the List Interface
+from Java.
+
+## Videos
+
+- [Lab Overview]()
 
 ## Task 1 - Write Unit tests
 
