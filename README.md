@@ -5,9 +5,10 @@
 In this lesson we are going to implement our own data structure that implements the List Interface
 from Java.
 
-## Videos
+## Important Links
 
 - [Lab Overview]()
+- [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 
 ## Task 1 - Write Unit tests
 
