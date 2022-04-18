@@ -5,6 +5,16 @@
 In this lesson we are going to implement our own data structure that implements the List Interface
 from Java.
 
+It is sometimes helpful to draw out what your data structure will look like in memory before you
+start coding anything up. Having a visual model to reference can aid in both development and
+testing. The diagram below shows a list with 3 elements and a sentinel node. You can see that the
+next pointer in node **n3** points back to the sentinel node and the prev pointer of **n1** points
+back to the sentinel node. Each node has a data pointer that will hold a reference to the data that
+is being stored in the list. There are many ways to implement a linked list. Two common ways are to
+use a null terminated list or to use a sentinel node. A sentinel node allows us to write slightly
+simpler algorithms when manipulating the list.
+
+
 ## Important Links
 
 - [Lab Overview]()
