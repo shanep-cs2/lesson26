@@ -8,7 +8,7 @@ from Java.
 
 ## Important Links
 
-- [Lab Overview]()
+- [Lab Overview](https://youtu.be/JO_vXfpanY0)
 - [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 - [Cloning and Submitting](https://shanep-cs2.github.io/docs/github.html)
 
@@ -24,7 +24,7 @@ interface. You need to write test for each method that do the following.
 - pass null to any method parameter that takes an object
 - check all the return values. You can update these later as you start to work on the code
 
-## Task 2 - Complete the MyListN class
+## Task 2 - Complete the MyList class
 
 Now that we have completed a set of tests for our list it is now time to start coding something up.
 We will need to now completed all the methods in the file **MyList.java**.  Hopefully once we are
@@ -33,30 +33,14 @@ done writing our list class all the tests that we wrote in a previous lab will s
 You may want to update, add, or modify any tests in **MyListTest.java** to reflect your new
 implementation.
 
-## Task 3 - Complete the MyListA class
 
-Now that we have completed a set of tests for our list it is now time to start coding something up.
-In this implementation you **must** use an array as your backing data structure, you can't use nodes
-like you did in [lesson26]({% link _cs2/lessons/lesson26.md %}). We will need to now completed all
-the methods in the file **MyList.java**.  Hopefully once we are done writing our list class all the
-tests that we wrote in a previous lab will start passing!
+## Task 3 - Complete the Retrospective
 
-You may want to update, add, or modify any tests in **MyListTest.java** to reflect your new
-implementation.
+Once you have completed all the tasks open the file Retrospective.md and complete each section with
+a TODO comment.
 
-## Task 4 - Efficiency Experiments
+## Task 4 - Add, Commit, Push your code
 
-You will need to use your list implementations to see if there are any differences.
-
-## Task 1 - Construct tests
-
-In your starter code repo you will find a file named **App.java**. You will need to construct a
-series of tests and output timings for each. You will then need to complete the efficiency section
-in your README.md reporting your findings.
-
-## Prepare for submission.
-
-This is the final stage in the project! Your project will be graded according to the standard
-[grading rubric]({% link _cs2/docs/grading-rubric.md %}) so make sure your code is 100% ready to
-go and push everything to github for grading!
+Once you are finished you need to make sure that you have pushed all your code to GitHub for
+grading!
 
