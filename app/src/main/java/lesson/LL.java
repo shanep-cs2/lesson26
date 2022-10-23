@@ -3,43 +3,30 @@ package lesson;
 /**
  * DO NOT MODIFY
  */
-public interface LL {
+public interface LL<T> {
 
     /**
-     * Appends the specified element to the end of this list 
+     * Appends the specified element to the front of this list. 
+     * If we have a list such as: A->B->C and we call add(X) our
+     * list would look like X->A->B->C
      * @param e The object to add
      */
-    void add(Object e);
+    void add(T e);
 
     /**
-     * Inserts the specified element at the specified position in this list
-     * @param index The index to insert at
-     * @param element the object to add
+     * Removes the element at the specified position in this list. If the index
+     * does not exist then we will just return null.
+     * @param index The index of the object to remove
+     * @return the element previously at the specified position or null
      */
-    void add(int index, Object element);
+    T remove(int index);
 
     /**
      * Returns the element at the specified position in this list.
      * @param index
      * @return the element at the specified position in this list
      */
-    Object get(int index);
-
-    /**
-     * Returns the index of the first occurrence of the specified element in this list, or -1 if
-     * this list does not contain the element.
-     * @param o The object to find
-     * @return the index of the first occurrence of the specified element in this list, or -1 if
-     * this list does not contain the element
-     */
-    int indexOf(Object o);
-
-    /**
-     * Removes the element at the specified position in this list
-     * @param index The index of the object to remove
-     * @return the element previously at the specified position
-     */
-    Object remove(int index);
+    T get(int index);
 
     /**
      * Returns true if this list contains no elements.
@@ -51,5 +38,11 @@ public interface LL {
      * Removes all of the elements from this list
      */
     void clear();
+
+    /**
+     * Returns the number of elements currently in this list.
+     * @return the number of elements
+     */
+    int getSize();
 
 }
