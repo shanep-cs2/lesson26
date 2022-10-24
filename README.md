@@ -19,7 +19,7 @@ we may not know 100% of the cases that we need to test our goal is to just have 
 and make sure that all our code compiles. At this point we expect our tests to fail!
 
 In your starter code you will see the file **MyList.java** that implements the **LL.java**
-interface. You need to write test for each method that do the following.
+interface. You need to write tests for each method that do the following.
 
 - pass null to any method parameter that takes an object
 - check all the return values. You can update these later as you start to work on the code
@@ -36,11 +36,11 @@ implementation.
 
 ## Task 3 - Complete the Retrospective
 
-Once you have completed all the tasks open the file Retrospective.md and complete each section with
+Once you have completed all the tasks, open the file Retrospective.md and complete each section with
 a TODO comment.
 
 ## Task 4 - Add, Commit, Push your code
 
-Once you are finished you need to make sure that you have pushed all your code to GitHub for
+Once you are finished, you need to make sure that you have pushed all your code to GitHub for
 grading!
 
